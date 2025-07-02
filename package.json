@@ -1,0 +1,41 @@
+{
+  "name": "sua-corretora-landing",
+  "version": "1.0.0",
+  "description": "Landing page interativa para corretoras de imóveis com quiz e integração WhatsApp",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'Projeto pronto para produção'",
+    "deploy": "echo 'Configure seu provedor de hospedagem'"
+  },
+  "keywords": [
+    "corretora",
+    "imóveis",
+    "landing-page",
+    "whatsapp",
+    "quiz",
+    "real-estate",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Sua Corretora",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/sua-corretora-landing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/sua-corretora-landing/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/sua-corretora-landing#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
