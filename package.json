@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx http-server . -p 3000 -o",
     "dev": "npx live-server --port=3000 --open=/index.html",
-    "build": "echo 'Projeto pronto para produção'",
+    "build": "node build.js",
     "deploy": "echo 'Configure seu provedor de hospedagem'"
   },
   "keywords": [
@@ -36,6 +36,6 @@
     "live-server": "^1.2.2"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "20.x"
   }
 }
