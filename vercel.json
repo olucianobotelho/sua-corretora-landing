@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "sua-corretora-landing",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ],
+  "functions": {},
+  "trailingSlash": false
+}

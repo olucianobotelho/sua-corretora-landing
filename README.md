@@ -45,10 +45,46 @@ As mensagens são automaticamente personalizadas baseadas na escolha do usuário
 
 ## 🚀 Como Usar
 
-1. Clone este repositório
-2. Configure o número do WhatsApp
-3. Personalize as cores e textos conforme sua marca
-4. Hospede em qualquer servidor web
+### Desenvolvimento Local
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/olucianobotelho/sua-corretora-landing.git
+   cd sua-corretora-landing
+   ```
+
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
+
+3. **Inicie o servidor de desenvolvimento**
+   ```bash
+   npm run dev
+   ```
+
+4. **Acesse no navegador**
+   ```
+   http://localhost:3000
+   ```
+
+### Deploy no Vercel
+
+1. **Build para produção**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy automático**
+   - O projeto está configurado para deploy automático no Vercel
+   - Cada push para a branch `main` dispara um novo deploy
+   - URL de produção: [sua-corretora-landing.vercel.app](https://sua-corretora-landing.vercel.app)
+
+### Configuração
+
+1. Configure o número do WhatsApp
+2. Personalize as cores e textos conforme sua marca
+3. Hospede em qualquer servidor web
 
 ## 📂 Estrutura do Projeto
 
@@ -61,10 +97,18 @@ corretoras/
 
 ## 🛠️ Tecnologias Utilizadas
 
+### Frontend
 - **HTML5**: Estrutura semântica
 - **CSS3**: Estilização avançada com Grid/Flexbox
 - **JavaScript**: Interatividade e integração WhatsApp
 - **Google Fonts**: Tipografia Inter
+
+### Build & Deploy
+- **Node.js 20.x** - Runtime para scripts de build
+- **npm** - Gerenciamento de dependências
+- **Vercel** - Hospedagem e deploy automático
+- **Git** - Controle de versão
+- **GitHub** - Repositório e integração CI/CD
 
 ## 📈 Performance
 
